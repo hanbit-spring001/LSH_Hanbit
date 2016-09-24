@@ -27,5 +27,4 @@ public static void main(String[] args) {
 
 	springBean.callSecond();
 }
-
 }
