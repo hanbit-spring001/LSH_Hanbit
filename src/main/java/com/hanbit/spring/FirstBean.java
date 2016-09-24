@@ -9,12 +9,15 @@ public class FirstBean {
 	
 	private SecondBean secondBean;
 	
+	private int value;
+	
 	@Autowired
 	public void setSecondBean(SecondBean secondBean) {
 		this.secondBean = secondBean;
 	}
 
 	public void callSecond() {
+		System.out.println(value++);
 		secondBean.printName();
 	}
 
